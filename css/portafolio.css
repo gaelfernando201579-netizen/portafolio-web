@@ -1,0 +1,98 @@
+/* Estilos personalizados. Tailwind CSS se carga por CDN. */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Imagen flotante del inicio (animación de la plantilla) */
+@keyframes flotar {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+.flotar {
+    animation: flotar 15s ease-in-out infinite;
+}
+
+/* Tarjetas con borde punteado y desplazamiento al pasar el cursor */
+.tarjeta {
+    position: relative;
+    display: block;
+}
+
+.tarjeta .capa-frente,
+.tarjeta .capa-fondo,
+.tarjeta .contenido {
+    transition: transform 0.3s ease-out;
+}
+
+.tarjeta .capa-frente {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    border: 1px dashed transparent;
+    border-radius: 1rem;
+}
+
+.tarjeta .capa-fondo {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
+    border: 1px dashed #d4d4d4;
+    border-radius: 1rem;
+}
+
+.tarjeta .contenido {
+    position: relative;
+    z-index: 30;
+}
+
+.dark .tarjeta .capa-fondo {
+    border-color: #525252;
+}
+
+.tarjeta:hover .capa-frente {
+    transform: translate(-4px, -4px);
+    border-color: #d4d4d4;
+    background: #fff;
+}
+
+.dark .tarjeta:hover .capa-frente {
+    border-color: #525252;
+    background: #0a0a0a;
+}
+
+.tarjeta:hover .capa-fondo {
+    transform: translate(4px, 4px);
+}
+
+.tarjeta:hover .contenido {
+    transform: translate(-4px, -4px);
+}
+
+:focus-visible {
+    outline: 2px solid #6366f1;
+    outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .flotar {
+        animation: none;
+    }
+
+    .tarjeta * {
+        transition: none !important;
+    }
+}
