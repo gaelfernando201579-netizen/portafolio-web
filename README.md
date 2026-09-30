@@ -5,7 +5,7 @@ Portafolio personal de desarrollo de software, hecho con **HTML, CSS y JavaScrip
 - **Repositorio:** https://github.com/gaelfernando201579-netizen/portafolio-web
 - **GitHub Pages:** https://gaelfernando201579-netizen.github.io/portafolio-web/
 
-![Página de inicio](img/captura-inicio.png)
+![Página de inicio](img/inicio.png)
 
 ## Descripción del proyecto
 
@@ -19,12 +19,12 @@ La plantilla original está hecha con Next.js y React. Para cumplir el requisito
 
 ### Menús y secciones
 
-| Página                      | Descripción                                                                                                                |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Inicio (`index.html`)       | Saludo, breve presentación, foto de perfil, botones hacia Proyectos y Posts, e ilustración animada que cambia con el tema. |
-| Proyectos (`projects.html`) | Tarjetas con borde punteado para Campy, BacheMap y Utileria.js, con portada y descripción.                                 |
-| Posts (`posts.html`)        | Lista de artículos que planeo escribir sobre lo que aprendo.                                                               |
-| Sobre mí (`about.html`)     | Presentación, foto, etiquetas de skills, trayectoria en línea de tiempo y enlaces de contacto.                             |
+| Página                      | Descripción                                                                                                                       |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Inicio (`index.html`)       | Saludo, breve presentación, foto de perfil, botones hacia Proyectos y Certificados, e ilustración animada que cambia con el tema. |
+| Proyectos (`projects.html`) | Tarjetas con borde punteado para Campy, BacheMap y Utileria.js, con portada y descripción.                                        |
+| Certificados (`posts.html`) | Lista de certificados obtenidos.                                                                                                  |
+| Sobre mí (`about.html`)     | Presentación, foto, etiquetas de skills, trayectoria en línea de tiempo y enlaces de contacto.                                    |
 
 Todas las páginas comparten menú superior, botón de modo claro/oscuro y pie de página.
 
@@ -38,7 +38,7 @@ Todas las páginas comparten menú superior, botón de modo claro/oscuro y pie d
 6. **JavaScript** (`js/portafolio.js`): cambio de tema con `localStorage`, menú móvil y resaltado del enlace de la página actual.
 7. **Cambios sobre la plantilla y por qué:**
    - Cambié todo el contenido por el mío y lo traduje al español.
-   - Sustituí las fotos y portadas de ejemplo por mi foto y portadas propias en SVG.
+   - Sustituí las fotos y portadas de ejemplo por mi foto y portadas propias.
    - Reemplacé la experiencia laboral de ejemplo por mi trayectoria académica y de proyectos.
    - Cambié Twitter por Instagram.
    - Los posts son un plan de escritura, aún sin artículos completos.
@@ -47,8 +47,11 @@ Todas las páginas comparten menú superior, botón de modo claro/oscuro y pie d
 ## Capturas de pantalla
 
 ![Proyectos](img/captura-proyectos.png)
-![Modo oscuro](img/captura-oscuro.png)
-![Versión móvil](img/captura-movil.png)
+![Certificados](img/certificados.png)
+![Sobre mí](img/sobremi.png)
+![Modo claro](img/claro.png)
+![Modo oscuro](img/inicio.png)
+![Versión móvil](img/movil.png)
 
 ## Estructura
 
