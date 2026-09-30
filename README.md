@@ -46,12 +46,12 @@ Todas las páginas comparten menú superior, botón de modo claro/oscuro y pie d
 
 ## Capturas de pantalla
 
-![Proyectos](img/captura-proyectos.png)
+![Proyectos](img/proyectos.png)
 ![Certificados](img/certificados.png)
 ![Sobre mí](img/sobremi.png)
 ![Modo claro](img/claro.png)
 ![Modo oscuro](img/inicio.png)
-![Versión móvil](img/movil.png)
+![Versión móvil](img/movil.jpeg)
 
 ## Estructura
 
